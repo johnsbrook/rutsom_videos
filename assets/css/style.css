@@ -23,3 +23,16 @@
   width: "560";
   height: "315";
 }
+
+.topintro {
+  padding-top: 50px;
+}
+
+.heading{
+  font-weight: 400;
+  font-size: 1.75rem;
+}
+
+.border {
+  border-radius: 15px;
+}

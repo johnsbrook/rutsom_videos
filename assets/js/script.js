@@ -182,6 +182,8 @@ function mapJul() {
     let d = createNode("div");
     let h = createNode("h5");
 
+    d.setAttribute("class", "col-12 col-md-4 mx-auto")
+
     h.innerHTML = v.title;
     h.setAttribute("class", "mt-4")
     i.setAttribute("class", "iframe");
@@ -191,11 +193,10 @@ function mapJul() {
       "allow",
       "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     );
-
-    appendNode(l, h);
-    appendNode(l, d);
-    appendNode(l, i);
-    appendNode(july, l);
+    
+    appendNode(d, h)
+    appendNode(d, i)
+    appendNode(july, d)
   });
 }
 
@@ -209,6 +210,8 @@ function mapAug() {
     let d = createNode("div");
     let h = createNode("h5");
 
+    d.setAttribute("class", "col-12 col-md-4 mx-auto")
+
     h.innerHTML = v.title;
     h.setAttribute("class", "mt-4")
     i.setAttribute("class", "iframe");
@@ -218,11 +221,10 @@ function mapAug() {
       "allow",
       "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     );
-
-    appendNode(l, h);
-    appendNode(l, d);
-    appendNode(l, i);
-    appendNode(august, l);
+    
+    appendNode(d, h)
+    appendNode(d, i)
+    appendNode(august, d)
   });
 }
 
@@ -236,6 +238,8 @@ function mapSep() {
     let d = createNode("div");
     let h = createNode("h5");
 
+   d.setAttribute("class", "col-12 col-md-4 mx-auto")
+
     h.innerHTML = v.title;
     h.setAttribute("class", "mt-4")
     i.setAttribute("class", "iframe");
@@ -245,11 +249,10 @@ function mapSep() {
       "allow",
       "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     );
-
-    appendNode(l, h);
-    appendNode(l, d);
-    appendNode(l, i);
-    appendNode(september, l);
+    
+    appendNode(d, h)
+    appendNode(d, i)
+    appendNode(september, d)
   });
 }
 
@@ -263,6 +266,8 @@ function mapOct() {
     let d = createNode("div");
     let h = createNode("h5");
 
+    d.setAttribute("class", "col-12 col-md-4 mx-auto")
+
     h.innerHTML = v.title;
     h.setAttribute("class", "mt-4")
     i.setAttribute("class", "iframe");
@@ -272,10 +277,9 @@ function mapOct() {
       "allow",
       "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     );
-
-    appendNode(l, h);
-    appendNode(l, d);
-    appendNode(l, i);
-    appendNode(october, l);
+    
+    appendNode(d, h)
+    appendNode(d, i)
+    appendNode(october, d)
   });
 }
