@@ -155,10 +155,18 @@ const videosOct = [
   },
 ];
 
+// Grab each div by month from HTML
 const july = document.querySelector("#july");
 const august = document.querySelector("#august");
 const september = document.querySelector("#september");
 const october = document.querySelector("#october");
+
+// Sets video iframe
+const URL = "https://www.youtube.com/embed/";
+const allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+
+// Format each card
+const divClass = "col-12 col-md-4 mx-auto"
 
 const createNode = (elem) => {
   return document.createElement(elem);
@@ -182,16 +190,16 @@ function mapJul() {
     let d = createNode("div");
     let h = createNode("h5");
 
-    d.setAttribute("class", "col-12 col-md-4 mx-auto")
+    d.setAttribute("class", divClass)
 
     h.innerHTML = v.title;
     h.setAttribute("class", "mt-4")
     i.setAttribute("class", "iframe");
-    i.setAttribute("src", "https://www.youtube.com/embed/" + v.url);
+    i.setAttribute("src", URL + v.url);
     i.setAttribute("frameborder", "0");
     i.setAttribute(
       "allow",
-      "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allow
     );
     
     appendNode(d, h)
@@ -210,16 +218,16 @@ function mapAug() {
     let d = createNode("div");
     let h = createNode("h5");
 
-    d.setAttribute("class", "col-12 col-md-4 mx-auto")
+    d.setAttribute("class", divClass)
 
     h.innerHTML = v.title;
     h.setAttribute("class", "mt-4")
     i.setAttribute("class", "iframe");
-    i.setAttribute("src", "https://www.youtube.com/embed/" + v.url);
+    i.setAttribute("src", URL + v.url);
     i.setAttribute("frameborder", "0");
     i.setAttribute(
       "allow",
-      "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allow
     );
     
     appendNode(d, h)
@@ -238,16 +246,16 @@ function mapSep() {
     let d = createNode("div");
     let h = createNode("h5");
 
-   d.setAttribute("class", "col-12 col-md-4 mx-auto")
+   d.setAttribute("class", divClass)
 
     h.innerHTML = v.title;
     h.setAttribute("class", "mt-4")
     i.setAttribute("class", "iframe");
-    i.setAttribute("src", "https://www.youtube.com/embed/" + v.url);
+    i.setAttribute("src", URL + v.url);
     i.setAttribute("frameborder", "0");
     i.setAttribute(
       "allow",
-      "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allow
     );
     
     appendNode(d, h)
@@ -266,16 +274,16 @@ function mapOct() {
     let d = createNode("div");
     let h = createNode("h5");
 
-    d.setAttribute("class", "col-12 col-md-4 mx-auto")
+    d.setAttribute("class", divClass)
 
     h.innerHTML = v.title;
     h.setAttribute("class", "mt-4")
     i.setAttribute("class", "iframe");
-    i.setAttribute("src", "https://www.youtube.com/embed/" + v.url);
+    i.setAttribute("src", URL + v.url);
     i.setAttribute("frameborder", "0");
     i.setAttribute(
       "allow",
-      "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allow
     );
     
     appendNode(d, h)
