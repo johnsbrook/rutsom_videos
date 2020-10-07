@@ -10,12 +10,16 @@
 }
 
 .navbar-brand {
-    font-size: 1.75rem;
-    text-shadow: 1px 1px 2px #B7B7B7;
-    color: white;
+  font-size: 1.75rem;
+  text-shadow: 1px 1px 2px #b7b7b7;
+  color: white;
 }
 
 .list {
   list-style: none;
 }
 
+.iframe {
+  width: "560";
+  height: "315";
+}
