@@ -16,13 +16,17 @@
     <link rel="stylesheet" href="assets/css/style.css" />
 
     <!-- Google Fonts Go Here -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <!-- Use these CSS rules for Google Fonts -->
     <!-- font-family: 'Roboto', sans-serif; -->
 
     <title>RUTSOM Video List</title>
   </head>
   <body>
+    <!-- Navbar begins here -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light nav-background">
       <a class="navbar-brand text-white ml-1" href="/">RUTSOM Library</a>
       <button
@@ -34,7 +38,7 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon" ></span>
+        <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
@@ -44,18 +48,44 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white mt-2 ml-1" href="/assets/html/videos.html">
-                
-                Class Videos</a>
-            
+            <a
+              class="nav-link text-white mt-2 ml-1"
+              href="/assets/html/videos.html"
+            >
+              Class Videos</a
+            >
           </li>
-          
-          
         </ul>
       </div>
     </nav>
 
+    <!-- Main content goes here -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-8 mx-auto">
+          <h1 class="text-center mt-3">RUTSOM Class Videos</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h3 class="text-center my-3" id="july">July</h3>
+        </div>
+        <div class="col-12 col-md-6">
+          <h3 class="text-center my-3" id="august">August</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h3 class="text-center my-3" id="september">September</h3>
+        </div>
+        <div class="col-12 col-md-6">
+          <h3 class="text-center my-3" id="october">October</h3>
+        </div>
+      </div>
+    </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha2/js/bootstrap.min.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
