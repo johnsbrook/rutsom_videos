@@ -1,0 +1,17 @@
+.nav-background {
+  background: rgb(205, 8, 8);
+  background: linear-gradient(
+    90deg,
+    rgba(205, 8, 8, 1) 0%,
+    rgba(205, 8, 8, 1) 35%,
+    rgba(255, 0, 0, 0.06032482598607891) 100%
+  );
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.75rem;
+    text-shadow: 1px 1px 2px #B7B7B7;
+    color: white;
+}
+
