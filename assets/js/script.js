@@ -82,23 +82,76 @@ const videosAug = [
 
 const videosSep = [
   {
-    url: "3HE2jxHJ2KY",
+    url: "tOPrwqhYwoY",
+    title: "September 4th",
+  },
+  {
+    url: "okdWQiTMv_w",
+    title: "September 8th",
+  },
+  {
+    url: "5N55HLgwkPI",
+    title: "September 9th",
+  },
+  {
+    url: "E9O6GnKJ_as",
+    title: "September 10th",
+  },
+  {
+    url: "u5T6TlWm_hM",
+    title: "September 11th",
+  },
+  {
+    url: "u12gG75v_oY",
+    title: "September 14th",
+  },
+  {
+    url: "NIAIktFNjhI",
+    title: "September 15th",
+  },
+  {
+    url: "VdZ0oSADUac",
+    title: "September 16th",
+  },
+  {
+    url: "U7bYj9m7a_k",
+    title: "September 17th",
+  },
+  {
+    url: "WHf1Z7ZS960",
+    title: "September 18th",
+  },
+
+  {
+    url: "arz_cGcJf4k",
+    title: "September 21st",
+  },
+  {
+    url: "6dwhnfIb7Rw",
+    title: "September 22nd",
+  },
+  {
+    url: "MuR_slphh-M",
+    title: "September 28th",
+  },
+  {
+    url: "Rcl4aERXrC0",
     title: "September 29th",
   },
   {
-    url: "b6aMqbuwUhs",
+    url: "uWkL8HPAi0U",
     title: "September 30th",
   },
 ];
 
 const videosOct = [
   {
-    url: "3HE2jxHJ2KY",
-    title: "September 29th",
+    url: "cWiJXq__OcY",
+    title: "October 1st ",
   },
   {
-    url: "b6aMqbuwUhs",
-    title: "September 30th",
+    url: "FOAYV9-yOkI",
+    title: "October 2nd ",
   },
 ];
 
@@ -130,6 +183,7 @@ function mapJul() {
     let h = createNode("h5");
 
     h.innerHTML = v.title;
+    h.setAttribute("class", "mt-4")
     i.setAttribute("class", "iframe");
     i.setAttribute("src", "https://www.youtube.com/embed/" + v.url);
     i.setAttribute("frameborder", "0");
@@ -156,6 +210,7 @@ function mapAug() {
     let h = createNode("h5");
 
     h.innerHTML = v.title;
+    h.setAttribute("class", "mt-4")
     i.setAttribute("class", "iframe");
     i.setAttribute("src", "https://www.youtube.com/embed/" + v.url);
     i.setAttribute("frameborder", "0");
@@ -182,6 +237,7 @@ function mapSep() {
     let h = createNode("h5");
 
     h.innerHTML = v.title;
+    h.setAttribute("class", "mt-4")
     i.setAttribute("class", "iframe");
     i.setAttribute("src", "https://www.youtube.com/embed/" + v.url);
     i.setAttribute("frameborder", "0");
@@ -208,6 +264,7 @@ function mapOct() {
     let h = createNode("h5");
 
     h.innerHTML = v.title;
+    h.setAttribute("class", "mt-4")
     i.setAttribute("class", "iframe");
     i.setAttribute("src", "https://www.youtube.com/embed/" + v.url);
     i.setAttribute("frameborder", "0");
