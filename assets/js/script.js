@@ -163,10 +163,11 @@ const october = document.querySelector("#october");
 
 // Sets video iframe
 const URL = "https://www.youtube.com/embed/";
-const allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+const allow =
+  "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
 
 // Format each card
-const divClass = "col-12 col-md-4 mx-auto"
+const divClass = "col-12 col-md-4 mx-auto";
 
 const createNode = (elem) => {
   return document.createElement(elem);
@@ -183,111 +184,87 @@ mapOct();
 // mapping july
 function mapJul() {
   videosJul.map((v) => {
-    let l = createNode("li");
     let i = createNode("iframe");
-    let p = createNode("p");
-    let b = createNode("br");
     let d = createNode("div");
     let h = createNode("h5");
 
-    d.setAttribute("class", divClass)
+    d.setAttribute("class", divClass);
 
     h.innerHTML = v.title;
-    h.setAttribute("class", "mt-4")
+    h.setAttribute("class", "mt-4");
     i.setAttribute("class", "iframe");
     i.setAttribute("src", URL + v.url);
     i.setAttribute("frameborder", "0");
-    i.setAttribute(
-      "allow",
-      allow
-    );
-    
-    appendNode(d, h)
-    appendNode(d, i)
-    appendNode(july, d)
+    i.setAttribute("allow", allow);
+
+    appendNode(d, h);
+    appendNode(d, i);
+    appendNode(july, d);
   });
 }
 
 // mapping august
 function mapAug() {
   videosAug.map((v) => {
-    let l = createNode("li");
     let i = createNode("iframe");
-    let p = createNode("p");
-    let b = createNode("br");
     let d = createNode("div");
     let h = createNode("h5");
 
-    d.setAttribute("class", divClass)
+    d.setAttribute("class", divClass);
 
     h.innerHTML = v.title;
-    h.setAttribute("class", "mt-4")
+    h.setAttribute("class", "mt-4");
     i.setAttribute("class", "iframe");
     i.setAttribute("src", URL + v.url);
     i.setAttribute("frameborder", "0");
-    i.setAttribute(
-      "allow",
-      allow
-    );
-    
-    appendNode(d, h)
-    appendNode(d, i)
-    appendNode(august, d)
+    i.setAttribute("allow", allow);
+
+    appendNode(d, h);
+    appendNode(d, i);
+    appendNode(august, d);
   });
 }
 
 //mapping september
 function mapSep() {
   videosSep.map((v) => {
-    let l = createNode("li");
     let i = createNode("iframe");
-    let p = createNode("p");
-    let b = createNode("br");
     let d = createNode("div");
     let h = createNode("h5");
 
-   d.setAttribute("class", divClass)
+    d.setAttribute("class", divClass);
 
     h.innerHTML = v.title;
-    h.setAttribute("class", "mt-4")
+    h.setAttribute("class", "mt-4");
     i.setAttribute("class", "iframe");
     i.setAttribute("src", URL + v.url);
     i.setAttribute("frameborder", "0");
-    i.setAttribute(
-      "allow",
-      allow
-    );
-    
-    appendNode(d, h)
-    appendNode(d, i)
-    appendNode(september, d)
+    i.setAttribute("allow", allow);
+
+    appendNode(d, h);
+    appendNode(d, i);
+    appendNode(september, d);
   });
 }
 
 // mapping october
 function mapOct() {
   videosOct.map((v) => {
-    let l = createNode("li");
     let i = createNode("iframe");
-    let p = createNode("p");
-    let b = createNode("br");
     let d = createNode("div");
     let h = createNode("h5");
 
-    d.setAttribute("class", divClass)
+    d.setAttribute("class", divClass);
 
     h.innerHTML = v.title;
-    h.setAttribute("class", "mt-4")
+    h.setAttribute("class", "mt-4");
     i.setAttribute("class", "iframe");
     i.setAttribute("src", URL + v.url);
     i.setAttribute("frameborder", "0");
-    i.setAttribute(
-      "allow",
-      allow
-    );
-    
-    appendNode(d, h)
-    appendNode(d, i)
-    appendNode(october, d)
+    i.setAttribute("allow", allow);
+
+    appendNode(d, h);
+    appendNode(d, i);
+    appendNode(october, d);
   });
 }
